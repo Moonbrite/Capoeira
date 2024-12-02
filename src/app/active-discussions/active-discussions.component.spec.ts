@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ActiveDicussionsComponent } from './active-dicussions.component';
+import { ActiveDiscussionsComponent } from './active-discussions.component';
 
-describe('ActiveDicussionsComponent', () => {
-  let component: ActiveDicussionsComponent;
-  let fixture: ComponentFixture<ActiveDicussionsComponent>;
+describe('ActiveDiscussionsComponent', () => {
+  let component: ActiveDiscussionsComponent;
+  let fixture: ComponentFixture<ActiveDiscussionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ActiveDicussionsComponent]
+      imports: [ActiveDiscussionsComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ActiveDicussionsComponent);
+    fixture = TestBed.createComponent(ActiveDiscussionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
