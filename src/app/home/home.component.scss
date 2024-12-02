@@ -1,15 +1,36 @@
+
 .hero {
-  background-image: url("../../../public/home-hero-image.webp");
+  min-height: 90vh;
+  background-image: url("../../../public/home-hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .button-hero {
   @apply py-2 px-5 bg-red-500	 text-white font-semibold rounded-full shadow-md hover:bg-red-600	 focus:outline-none focus:ring focus:ring-red-400 focus:ring-opacity-75;
 }
 
 h1 {
-  @apply text-gray-50 uppercase text-5xl
+  @apply text-white uppercase text-5xl font-bold;
 }
 
-h2{
-  @apply text-gray-50 uppercase text-2xl
+h2 {
+  @apply text-gray-50 uppercase text-2xl;
+}
+
+h3 {
+  @apply text-emerald-600 uppercase text-xl font-bold;
+}
+
+
+.container-button {
+  @apply flex items-center justify-around w-full;
+  margin-top: 100px;
+}
+
+.button-hero {
+  @apply py-2 px-5 bg-red-500 text-white font-semibold rounded-full shadow-md hover:bg-red-600 focus:outline-none focus:ring focus:ring-red-400 focus:ring-opacity-75;
 }
