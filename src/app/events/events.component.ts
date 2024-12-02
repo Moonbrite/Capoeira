@@ -3,7 +3,7 @@ import { EventsfiltersComponent } from '../components/eventsfilters/eventsfilter
 
 @Component({
   selector: 'app-events',
-  imports: [],
+  imports: [EventsfiltersComponent],
   templateUrl: './events.component.html',
   styleUrl: './events.component.scss'
 })
