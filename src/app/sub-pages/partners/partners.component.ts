@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     NgFor,
   ],
   templateUrl: './partners.component.html',
+  standalone: true,
   styleUrl: './partners.component.scss'
 })
 export class PartnersComponent {
