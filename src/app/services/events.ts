@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Event } from "../models/event";
-import { environment } from "../environment/environment";
+import { environment } from "../environement/environment";
 import { Observable } from "rxjs";
 import { Injectable } from "@angular/core";
 

@@ -17,7 +17,7 @@ export class EventsComponent implements OnInit {
     private eventService: EventService,
   ){};
 
-  events?: Event[];
+  // events?: Event[];
   event?: Event;
 
   ngOnInit(){
@@ -31,16 +31,15 @@ export class EventsComponent implements OnInit {
     //   },
     // });
     
-
-    // this.eventService.getEvent(2).subscribe({
-    //   next: (data: Event) => {
-    //     this.event = data;
-    //     console.log(this.event);
-    //   },
-    //   error: (error) => {
-    //     console.log(error);
-    //   },
-    // });
+    this.eventService.getEvent(2).subscribe({
+      next: (data: Event) => {
+        this.event = data;
+        console.log(this.event);
+      },
+      error: (error) => {
+        console.log(error);
+      },
+    });
   }
 
 
