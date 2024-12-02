@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { EventsfiltersComponent } from '../components/eventsfilters/eventsfilters.component';
 
+
 @Component({
   selector: 'app-events',
   imports: [EventsfiltersComponent],
