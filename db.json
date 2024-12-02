@@ -86,7 +86,8 @@
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1722762000,
       "end_date": 1722794400,
-      "id": 1
+      "id": 1,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748e42f5e4d2a3fbf9341bf",
@@ -99,7 +100,8 @@
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1718874000,
       "end_date": 1719252000,
-      "id": 2
+      "id": 2,
+      "image_url": "https://lesexplos.com/wp-content/uploads/2021/09/Capoeira_1200px.jpg"
     },
     {
       "_id": "6748d79f0f5d2d7389777023",
@@ -111,7 +113,8 @@
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1723464000,
       "end_date": 1723550400,
-      "id":11
+      "id":11,
+      "image_url": "https://www.voyage-amazonie.com/sites/default/files/capoeira.jpg"
     },
     {
       "_id": "6748d79f0f5d2d7389777024",
@@ -123,7 +126,8 @@
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1723982400,
       "end_date": 1723993200,
-      "id":3
+      "id":3,
+      "image_url": "https://www.sportweek.fr/wp-content/uploads/2017/09/decouvrir-capoeira.jpg"
     },
     {
       "_id": "6748d79f0f5d2d7389777025",
@@ -135,7 +139,8 @@
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1724328000,
       "end_date": 1724346000,
-      "id":4
+      "id":4,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748d79f0f5d2d7389777026",
@@ -148,7 +153,8 @@
       "school_id": "6748d90bc0f2f27b7a90952d",
       "start_date": 1724565600,
       "end_date": 1724652000,
-      "id": 5
+      "id": 5,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748d79f0f5d2d7389777030",
@@ -165,7 +171,8 @@
         "Mestre Zangado",
         "Contra-Mestre Mariposa"
       ],
-      "id": 6
+      "id": 6,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748d79f0f5d2d7389777027",
@@ -177,7 +184,8 @@
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1725170400,
       "end_date": 1725184800,
-      "id": 7
+      "id": 7,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748e4907e860be79bd79e99",
@@ -194,7 +202,8 @@
         "Mestre Andorinha",
         "Contra-Mestre Vento"
       ],
-      "id": 8
+      "id": 8,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748d79f0f5d2d7389777028",
@@ -206,7 +215,8 @@
       "school_id": "6748d90bc0f2f27b7a90952d",
       "start_date": 1725696000,
       "end_date": 1725868800,
-      "id": 9
+      "id": 9,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     },
     {
       "_id": "6748d79f0f5d2d7389777029",
@@ -218,7 +228,8 @@
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1726322400,
       "end_date": 1726351200,
-      "id": 10
+      "id": 10,
+      "image_url": "https://cdn.thecollector.com/wp-content/uploads/2024/02/what-is-capoeira.jpg?width=1400&quality=70"
     }
   ],
   "users": [

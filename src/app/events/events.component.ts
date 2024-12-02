@@ -3,11 +3,12 @@ import { EventsfiltersComponent } from '../components/eventsfilters/eventsfilter
 import { EventService } from '../services/events';
 import { OnInit } from '@angular/core';
 import { Event } from "../models/event";
+import { EventscardscontainerComponent } from '../components/eventscardscontainer/eventscardscontainer.component';
 
 
 @Component({
   selector: 'app-events',
-  imports: [EventsfiltersComponent],
+  imports: [EventsfiltersComponent, EventscardscontainerComponent],
   templateUrl: './events.component.html',
   styleUrl: './events.component.scss'
 })
