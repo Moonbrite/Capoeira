@@ -85,7 +85,8 @@
       "city": "Strasbourg",
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1722762000,
-      "end_date": 1722794400
+      "end_date": 1722794400,
+      "id": 1
     },
     {
       "_id": "6748e42f5e4d2a3fbf9341bf",
@@ -97,7 +98,8 @@
       "city": "Strasbourg",
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1718874000,
-      "end_date": 1719252000
+      "end_date": 1719252000,
+      "id": 2
     },
     {
       "_id": "6748d79f0f5d2d7389777023",
@@ -108,7 +110,8 @@
       "city": "Lyon",
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1723464000,
-      "end_date": 1723550400
+      "end_date": 1723550400,
+      "id":11
     },
     {
       "_id": "6748d79f0f5d2d7389777024",
@@ -119,7 +122,8 @@
       "city": "Lyon",
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1723982400,
-      "end_date": 1723993200
+      "end_date": 1723993200,
+      "id":3
     },
     {
       "_id": "6748d79f0f5d2d7389777025",
@@ -130,7 +134,8 @@
       "city": "Strasbourg",
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1724328000,
-      "end_date": 1724346000
+      "end_date": 1724346000,
+      "id":4
     },
     {
       "_id": "6748d79f0f5d2d7389777026",
@@ -142,7 +147,8 @@
       "city": "Orléans",
       "school_id": "6748d90bc0f2f27b7a90952d",
       "start_date": 1724565600,
-      "end_date": 1724652000
+      "end_date": 1724652000,
+      "id": 5
     },
     {
       "_id": "6748d79f0f5d2d7389777030",
@@ -158,7 +164,8 @@
         "Mestre Falcão",
         "Mestre Zangado",
         "Contra-Mestre Mariposa"
-      ]
+      ],
+      "id": 6
     },
     {
       "_id": "6748d79f0f5d2d7389777027",
@@ -169,7 +176,8 @@
       "city": "Strasbourg",
       "school_id": "6748d65535d4ba41ee298513",
       "start_date": 1725170400,
-      "end_date": 1725184800
+      "end_date": 1725184800,
+      "id": 7
     },
     {
       "_id": "6748e4907e860be79bd79e99",
@@ -185,7 +193,8 @@
         "Mestre Cobra",
         "Mestre Andorinha",
         "Contra-Mestre Vento"
-      ]
+      ],
+      "id": 8
     },
     {
       "_id": "6748d79f0f5d2d7389777028",
@@ -196,7 +205,8 @@
       "city": "Orléans",
       "school_id": "6748d90bc0f2f27b7a90952d",
       "start_date": 1725696000,
-      "end_date": 1725868800
+      "end_date": 1725868800,
+      "id": 9
     },
     {
       "_id": "6748d79f0f5d2d7389777029",
@@ -207,7 +217,8 @@
       "city": "Lyon",
       "school_id": "6748d79525661f7abaaf650a",
       "start_date": 1726322400,
-      "end_date": 1726351200
+      "end_date": 1726351200,
+      "id": 10
     }
   ],
   "users": [
