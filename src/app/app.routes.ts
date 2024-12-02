@@ -1,12 +1,14 @@
 import { Routes } from '@angular/router';
-import {ActiveDicussionsComponent} from './active-discussions/active-dicussions.component';
-import {ActiveDicussionComponent} from './active-discussions/active-dicussion/active-dicussion.component';
-import {HomeComponent} from './home/home.component';
+import { EventsComponent } from './events/events.component';    
+import {ActiveDiscussionsComponent} from './active-discussions/active-discussions.component';
+import {ActiveDiscussionComponent} from './active-discussions/active-discussion/active-discussion.component';
+import { HomeComponent } from './home/home.component';
 
 export const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'active-discussions', component: ActiveDicussionsComponent,
-  children: [
-    { path:'active-discussions/:id' , component: ActiveDicussionComponent },]
-  }
+    {path: '', component: HomeComponent},
+    {path: 'active-discussions', component: ActiveDiscussionsComponent,
+    children: [
+        { path:'active-discussions/:id' , component: ActiveDiscussionComponent },]
+    },
+    { path: 'events', component: EventsComponent },
 ];
