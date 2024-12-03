@@ -1,13 +1,12 @@
 .hero {
-  min-height: 90vh;
+  @apply min-h-[70vh] bg-cover bg-no-repeat flex flex-col justify-center items-center;
   background-image: url("../../../public/home-hero-image.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
 }
-
-.button-hero {
+.hero .container-button {
+  @apply flex items-center justify-around w-full;
+  margin-top: 100px;
+}
+.hero .container-button .button-hero {
   @apply py-2 px-5 bg-red-500 text-white font-semibold rounded-full shadow-md hover:bg-red-600 focus:outline-none focus:ring focus:ring-red-400 focus:ring-opacity-75;
 }
 
@@ -21,15 +20,6 @@ h2 {
 
 h3 {
   @apply text-emerald-600 uppercase text-xl font-bold;
-}
-
-.container-button {
-  @apply flex items-center justify-around w-full;
-  margin-top: 100px;
-}
-
-.button-hero {
-  @apply py-2 px-5 bg-red-500 text-white font-semibold rounded-full shadow-md hover:bg-red-600 focus:outline-none focus:ring focus:ring-red-400 focus:ring-opacity-75;
 }
 
 /*# sourceMappingURL=home.component.css.map */
