@@ -32,7 +32,6 @@ export class EventpageComponent implements OnInit {
     ).subscribe({
       next: (data: Event) => {
         this.event = data;
-        console.log(this.event);
       },
       error: (error) => {
         console.log(error);
