@@ -10,6 +10,7 @@ import { RouterLink } from '@angular/router';
   selector: 'app-eventscardscontainer',
   imports: [NgForOf, RouterLink],
   templateUrl: './eventscardscontainer.component.html',
+  standalone: true,
   styleUrl: './eventscardscontainer.component.scss'
 })
 export class EventscardscontainerComponent implements OnInit {
