@@ -1,0 +1,18 @@
+<div class="partners-container">
+    <header>
+      <h1>Nos Associations Partenaires</h1>
+    </header>
+  
+    <section>
+      <p>
+        Nous sommes fiers de collaborer avec diverses associations partenaires qui partagent notre passion pour la Capoeira.
+      </p>
+  
+      <div *ngFor="let partner of partners" class="partner-card">
+        <h2>{{ partner.name }}</h2>
+        <p>{{ partner.description }}</p>
+        <a [href]="partner.website" target="_blank" class="partner-link">Visiter leur site web</a>
+      </div>
+    </section>
+  </div>
+  
