@@ -1,1 +1,28 @@
-<p>home works!</p>
+<section class="hero">
+  <div class="hero-text text-center text-white">
+    <h1 class="text-5xl font-bold uppercase">Bienvenue dans la Fédération<br>Française de Capoeira</h1>
+    <h2 class="text-2xl mt-4">Partageons l’art, le mouvement et la passion.</h2>
+  </div>
+</section>
+
+<section class="bg-white py-6 text-left w-[72%] m-auto">
+  <h3 class="text-xl text-emerald-600 uppercase font-bold">Prochain événement :</h3>
+</section>
+
+<section class="event-card relative w-full max-w-6xl mx-auto my-8 shadow-lg rounded-lg overflow-hidden">
+  <img src="{{event?.image_url}}" alt="{{event?.title}}" class="w-full h-72 object-cover">
+  <div class=" bg-black bg-opacity-40 flex flex-col justify-between p-6 text-left text-white">
+
+    <h4 class="text-lg font-semibold uppercase">{{ event?.title }}</h4>
+    <a [routerLink]="['/event', event?.id]" style="width: fit-content;"
+       class=" inline-block bg-yellow-500 text-black font-bold px-4 py-2 rounded-full hover:bg-yellow-400">
+      En savoir plus
+    </a>
+  </div>
+</section>
+
+<section class="py-12 bg-gray-100 text-center">
+  <blockquote class="italic text-lg text-gray-700">"La capoeira m'a appris à dépasser mes limites, à célébrer chaque instant et à trouver ma force dans la communauté."</blockquote>
+  <img src="/home_motiv.png" alt="Motivation image" class="mx-auto mt-6">
+</section>
+

@@ -1,0 +1,25 @@
+<div class="mx-5">
+  <h1 class="text-center text-6xl">Discutions actives</h1>
+  @for (card of cards; track card._id){
+    <div class="flex ">
+      <div class="">
+        <div>{{ card.subject }}</div>
+        <p class="text-gray-700 text-base">
+          {{ card.description }}
+        </p>
+        <p>Créé le : {{ card.createdAt}} </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <a
+          [routerLink]="['/active-discussions/', card?._id]"
+          class="bg-red-700 rounded-full hover:not-focus:bg-yellow-700 p-4 text-white"
+        >
+          Aller à la page
+        </a>
+      </div>
+    </div>
+  } @empty {
+
+  }
+
+</div>

@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from "@angular/common/http";
 import { Event } from "../models/event";
-import { environment } from "../environment/environment";
+import { environment } from "../environement/environment";
 import { Observable } from "rxjs";
 import { Injectable } from "@angular/core";
 
@@ -13,9 +13,14 @@ import { Injectable } from "@angular/core";
     }
   
     apiUrl: string = environment.apiUrl+"events";
+    
   
     getAll(): Observable<Event[]> {
       return this.httpClient.get<Event[]>(this.apiUrl)
+    }
+
+    getEvent(id : number): Observable<Event> {
+      return this.httpClient.get<Event>(this.apiUrl+"/"+id);
     }
 
   }
