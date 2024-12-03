@@ -24,11 +24,7 @@ export class EventpageComponent implements OnInit {
   ngOnInit(){
     this.route.paramMap.pipe(
       switchMap((params) => {
-        console.log(params.get('id'));
-        if (params.getAll("id")!=null){
-          this.id = params.get('id');
-        }
-        
+        this.id = parseInt(<string>params.get('id'));
         return this.eventService.getEvent(this.id);
       })
     ).subscribe({
