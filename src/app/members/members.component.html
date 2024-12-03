@@ -1,1 +1,27 @@
-<p>members works!</p>
+
+<div class="members-container">
+  <h2>Liste des Membres</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Email</th>
+        <th>Numéro de référence</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.refNum }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="user">
+    <h3>Détails de l'utilisateur</h3>
+    <p><strong>Nom:</strong> {{ user.name }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Numéro de référence:</strong> {{ user.refNum }}</p>
+  </div>
+</div>
