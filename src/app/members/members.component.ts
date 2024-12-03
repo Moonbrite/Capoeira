@@ -7,7 +7,6 @@ import { NgFor, NgIf } from '@angular/common';
   selector: 'app-members',
   imports: [
     NgFor,
-    NgIf,
   ],
   templateUrl: './members.component.html',
   standalone: true,
@@ -31,4 +30,5 @@ export class MembersComponent {
       },
     });
   }
+  
 }
