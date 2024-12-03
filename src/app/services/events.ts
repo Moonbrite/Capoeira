@@ -23,4 +23,8 @@ import { Injectable } from "@angular/core";
         return this.httpClient.get<Event>(this.apiUrl+"/"+id);
       }
 
+    // getCitiesEvents(): Observable<Event> {
+    //   return this.httpClient.get<Event>(this.apiUrl);
+    // }
+
   }
