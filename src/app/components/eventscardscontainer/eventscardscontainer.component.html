@@ -7,8 +7,9 @@
             <div class="text-2xl font-bold   text-[#374151] pb-4">{{event.title}}</div>
             <div class=" text-base   text-[#374151]">{{event.description}}</div>
             <div class="flex justify-end pt-4">
-                <button class="bg-[#FDB813] text-[#ffffff] w-full font-bold text-base  p-3 rounded-lg active:scale-95 transition-transform transform">En savoir plus</button>
+                <a [routerLink]="['/event', event?.id]" class="bg-[#FDB813] text-[#ffffff] w-full font-bold text-base text-center p-3 rounded-lg active:scale-95 transition-transform transform">En savoir plus</a>
             </div>
+            
         </div>
     </div>
 </div>

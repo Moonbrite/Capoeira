@@ -3,11 +3,12 @@ import { EventService } from '../../services/events';
 import { OnInit } from '@angular/core';
 import { Event } from '../../models/event';
 import { NgForOf } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 
 @Component({
   selector: 'app-eventscardscontainer',
-  imports: [NgForOf],
+  imports: [NgForOf, RouterLink],
   templateUrl: './eventscardscontainer.component.html',
   styleUrl: './eventscardscontainer.component.scss'
 })
