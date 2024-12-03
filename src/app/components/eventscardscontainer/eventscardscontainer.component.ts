@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-eventscardscontainer',
   imports: [],
   templateUrl: './eventscardscontainer.component.html',
+  standalone: true,
   styleUrl: './eventscardscontainer.component.scss'
 })
 export class EventscardscontainerComponent {
