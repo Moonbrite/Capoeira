@@ -1,14 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, Pipe } from '@angular/core';
 import { switchMap } from 'rxjs/operators';
 import { EventService } from '../../services/events';
 import { Event } from '../../models/event';
 import { ActivatedRoute } from '@angular/router';
 import { OnInit } from '@angular/core';
+import { pipe } from 'rxjs';
+import { CommonModule, DatePipe } from '@angular/common';
 
 
 @Component({
   selector: 'app-eventpage',
-  imports: [],
+  imports: [DatePipe],
   templateUrl: './eventpage.component.html',
   styleUrl: './eventpage.component.scss'
 })
@@ -30,7 +32,6 @@ export class EventpageComponent implements OnInit {
     ).subscribe({
       next: (data: Event) => {
         this.event = data;
-        console.log(this.event);
       },
       error: (error) => {
         console.log(error);

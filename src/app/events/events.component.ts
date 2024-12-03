@@ -24,7 +24,6 @@ export class EventsComponent implements OnInit {
     // this.eventService.getAll().subscribe({
     //   next: (data: Event[]) => {
     //     this.events = data;
-    //     console.log(this.events);
     //   },
     //   error: (error) => {
     //     console.log(error);
@@ -34,7 +33,6 @@ export class EventsComponent implements OnInit {
     this.eventService.getEvent(2).subscribe({
       next: (data: Event) => {
         this.event = data;
-        console.log(this.event);
       },
       error: (error) => {
         console.log(error);
