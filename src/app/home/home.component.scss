@@ -1,5 +1,5 @@
 .hero {
-  @apply min-h-[90vh] bg-cover bg-no-repeat flex flex-col justify-center items-center;
+  @apply min-h-[100vh] bg-cover bg-no-repeat flex flex-col justify-center items-center;
   background-image: url("../../../public/home-hero-image.png");
 }
 
@@ -15,4 +15,22 @@ h2 {
 h3 {
   @apply text-emerald-600 uppercase text-xl font-bold;
 }
+
+
+.event-card img {
+  @apply w-full h-72;
+}
+
+.event-card div {
+  @apply absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-between p-6 text-white;
+}
+
+.event-card h4 {
+  @apply text-lg font-semibold uppercase;
+}
+
+.event-card a {
+  @apply bg-yellow-500 text-black font-bold px-4 py-2 rounded-full hover:bg-yellow-400;
+}
+
 

@@ -1,3 +1,59 @@
+footer {
+  display: flex;
+  padding: 10px 50px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  background: var(--LightGrey, #F1F1F1);
+}
+footer .wrapper_footer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer .wrapper_footer img {
+  max-width: 150px;
+  max-height: 150px;
+  cursor: pointer;
+}
+footer .wrapper_footer .links {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+footer .wrapper_footer .links nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+footer .wrapper_footer .links nav a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+footer .wrapper_footer .links nav a:hover {
+  color: var(--Primary-Color, #FDB813);
+  cursor: pointer;
+}
+footer .wrapper_footer .links nav a:hover .icon {
+  fill: var(--Primary-Color, #FDB813);
+}
 
+@media screen and (max-width: 600px) {
+  footer .wrapper_footer {
+    width: 100%;
+  }
+  footer .wrapper_footer img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
 
 /*# sourceMappingURL=footer.component.css.map */
