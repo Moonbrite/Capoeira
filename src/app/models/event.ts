@@ -1,5 +1,5 @@
 export class Event {
-    id: string;
+    id: number;
     title: string;
     description: string;
     category: string;
@@ -9,8 +9,9 @@ export class Event {
     start_date: number;
     end_date: number;
     speakers: [];
+    image_url: string;
     
-    constructor(id: string, title: string, description: string, category: string, public_event: boolean, city: string, school_id: string, start_date: number, end_date: number, speakers: []) {
+    constructor(id: number, title: string, description: string, category: string, public_event: boolean, city: string, school_id: string, start_date: number, end_date: number, speakers: [], image_url: string) {
       this.id = id;
       this.title = title;
       this.description = description;
@@ -21,5 +22,6 @@ export class Event {
       this.start_date = start_date;
       this.end_date = end_date;
       this.speakers = speakers;
+      this.image_url = image_url;
     }
   }
