@@ -1,5 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h1, h2, .montserrat {
+  font-family: "Montserrat";
+}
+
+p, .poppins {
+  font-family: "Poppins", sans-serif;
+}
 
 /*# sourceMappingURL=styles.css.map */

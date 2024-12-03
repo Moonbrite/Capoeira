@@ -7,6 +7,7 @@ import { DocumentsComponent } from './sub-pages/documents/documents.component';
 import { LegalsComponent } from './sub-pages/legals/legals.component';
 import { PartnersComponent } from './sub-pages/partners/partners.component';
 import { EventpageComponent } from './components/eventpage/eventpage.component';
+import {MembersComponent} from './members/members.component';
 
 export const routes: Routes = [
     {path: '', component: HomeComponent},
@@ -18,5 +19,6 @@ export const routes: Routes = [
     { path: 'documents', component: DocumentsComponent },
     { path: 'legals', component: LegalsComponent },
     { path: 'partners', component: PartnersComponent },
+    { path: 'members', component: MembersComponent },
 
 ];
